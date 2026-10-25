@@ -39,6 +39,8 @@ python3 code/main.py
 
 The blank template at `dataset/output.csv` is provided as a reference. Your final generated file for submission must be the root-level `output.csv`.
 
+The solver uses deterministic Python for evidence and policy decisions. Optional AI assistance can classify ambiguous deletion intent with an OpenAI-compatible OpenAI or NVIDIA provider; configuration and run instructions are documented in [`code/README.md`](./code/README.md). AI assistance is disabled by default.
+
 
 ## Dataset
 
